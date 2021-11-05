@@ -1,0 +1,23 @@
+body{
+    background-image: url(1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1200px;
+}
+
+h1,h3{
+    background-color: black;
+    color: blue;
+}
+
+.p1 {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: chartreuse;
+
+}
+
+.p2 {
+    background-color: black;
+    color: chocolate;
+}
+

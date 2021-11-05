@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/cute-clipart/64/000000/a.png">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbarbox">
+        <div class="container-fluid navbarbox">
+            <a class="navbar-brand" href="#AG">{AG}</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbarbox" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#iniciodepag">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#acercademi">Acerca de Mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container imgperfil" id="iniciodepag">
+        <div class="row">
+            <div class="col-sm-12">
+                <img class="imgbox1" src="fotop1.jpg">
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron jumbobox">
+        <h1 class="display-4" id="AG">Alberto Giuseppe</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
+            featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    </div>
+
+    <div class="container contbox">
+        <div class="row">
+            <h2 class="h2box1" id="portfolio">Portfolio</h2>
+            <div class="col-sm-4">
+                <a href="https://vigilant-hamilton-354dab.netlify.app" target="_blank">
+                    <img src="colorgame.png"       alt="logo de apple con un mensaje">
+                        <!-- "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM-SESEIi9dt2NNRCiVMNCADyDBlxAbYGJZg&usqp=CAU" -->
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="https://youthful-leakey-74d048.netlify.app/" target="_blank">
+                    <img src="todolist.png"        alt="mujer sentada con una laptop">
+                        <!-- "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7BrVXEkomKl94FyBKWZWn_PUeTs5tUylirw&usqp=CAU" -->
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="https://pensive-benz-d9f008.netlify.app/" target="_blank">
+                    <img src="weatherchanel.png"   alt="bola de cristal en un teclado">
+                    <!-- "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2vUO2U5HrYGSdoOQFIFk7igAPRqsHzmo2hg&usqp=CAU" -->
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <hr>
+                <h3 class="h3box1" id="acercademi">Acerca de mi</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quos deleniti blanditiis animi ipsam
+                    quod, hic rerum aut ipsa quis, eum sit! Hic quasi, ut tempora totam a cumque molestias!lorem Lorem
+                    ipsum dolor, sit amet consectetur adipisicing elit. Adipisci illo, dolor dolorum at quo
+                    necessitatibus aspernatur totam eaque tempora blanditiis ducimus beatae dignissimos dicta! Voluptate
+                    sed similique pariatur voluptas error.
+                </p>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <form action="https://formspree.io/f/xzbyodvl" method="post">
+            <div class="container contactform">              
+                <div class="row ContactBox1">
+                    <h3 class="contacttitle" id="contacto">CONTACTO</h3>
+                    <div class="col-sm-12">
+                        <label for=nombreform class="col-form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombreform" name="nombre" placeholder="Escribe tu Nombre" required>
+                    </div>
+                    <div class="col-sm-12">
+                        <label for=apellidoform class="col-form-label">Apellido</label>
+                        <input type="text" class="form-control" id="apellidoform" name="apellido" placeholder="Escribe tu Apellido" required>
+                    </div>
+                </div>
+                <div class="row ContactBox2">                   
+                    <div class="col-sm-12">
+                        <label for="inputEmail3" class="col-sm-1 col-form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail3" name="email" placeholder="Escribe tu Email">
+                    </div>
+                    <!-- <div class="col-sm-12">
+                        <label for="inputdir" class="col-sm-1 col-form-label">Dirección</label> 
+                        <input type="text" class="form-control" id="inputdir" name="direccion" placeholder="Escribe tu Direccion">
+                    </div> -->
+                </div>
+                <div class="row ContactBox3">                  
+                    <div class="col-sm-12">
+                        <label for="textbox">Consultas</label>                      
+                        <textarea class="form-control" id="textbox" rows="4" name="textarea" placeholder="Deja aqui tu Comentario..."></textarea>
+                    </div>
+                    <a class="botonformenviar"><button type="submit" class="btn btn-primary botonformenviar1">Enviar</button></a>
+                </div>
+
+
+            </div>
+        </form>
+    </div>
+
+    <div class="footerfondo1">
+        <div class="container footerbox">
+            <footer>
+                <div class="row">
+                    <div class="col-sm-4 ">
+                        <p><b>Dirección:</b></p>
+                        <p>Av. San Juan de Vilca Mz-b lot-5</p>
+                        <p>Distrito de Puente Piedra</p>
+                        <p>Lima - Peru</p>
+                    </div>
+                    <div class="col-sm-4 ">
+                        <p><b>Redes Sociales:</b></p>
+                        <a href=www.facebook.com>
+                            <img class="imgredesf" src="https://img.icons8.com/officel/2x/facebook-new.png" alt="link de facebook">                           
+                        </a>
+                    </div>
+                    <div class="col-sm-4 ">
+                        <p><b>Email:</b></p>
+                        <p>Albertogiusepp@gmail.com</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <div class="footerfondo">    
+        <div class="container footder">
+            <div class="row footerbox1">
+                <div class="col-sm-12">
+                    <p>Todos los derechos reservados © Alberto Giuseppe 2021</p>
+                </div>
+            </div>
+         </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

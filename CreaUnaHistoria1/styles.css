@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(17 19 21) ;
+}
+.contenido{
+    width: 100%;
+    max-width: 600%;
+    text-align: center;
+}
+.inicio, .inicio2, .inicio3, .inicio4{
+    text-align: center;
+    padding: 50px;
+}
+h1{
+    color: cornsilk;
+}
+h2{
+    color: coral;
+}
+h3{
+    color: #f0e6d2;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background: size 100%; ;
+  
+}
+img{
+    width: 500px;
+    height: 250px;
+}
+
+.boton1, .botniño, .volver2, .volver3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.txtemp, .txtniño, .txtadulto{
+    color: darkorange;
+    font-size: 16px;
+    
+}
+button, .bot2, .bot3, .volver1{
+    
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-color:slategrey;
+}
+p{
+    color: #f0e6d2;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding: 3px;
+    
+}
+.sinop{
+    background-image: url(d3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-position-x: right;
+}
+.titleniño{
+    background-image: url(d2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 15%;
+    margin-left: 45%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-position-x: right;
+}
+.titleadulto{
+    background-image: url(d5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 15%;
+    margin-left: 45%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-position-x: right;
+
+}
+.lol{
+    color: blanchedalmond;
+}

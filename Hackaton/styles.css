@@ -1,0 +1,125 @@
+
+body{
+    background-color: rgb(207, 205, 205);
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    margin: 10px;
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+}
+img:hover{
+    border: 2px solid white;
+}
+
+.imgperfil{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.imgbox1{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    
+}
+.jumbobox{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+.h2box1{
+    padding: 15px;
+}
+.contbox{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.h3box1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contacttitle {
+    text-align: center;
+}
+
+.contactform{
+    width: 40%;
+    background-color: rgb(49, 51, 54);
+    padding: 35px;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: blanchedalmond;
+}
+.contactform{
+    max-width: 600px;
+    width: 100%;
+}
+
+.botonformenviar{
+    text-align: center;
+    margin: 30px;
+    position: relative;
+    right: 33px;   
+}
+.botonformenviar1{
+    background-color:rgb(104, 104, 104) ;
+    border-color:blanchedalmond; 
+}
+
+.footerbox{
+    margin-top: 50px;
+    background-color: rgb(58, 58, 58);
+    color:honeydew;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+
+    
+}
+.footder{
+    text-align: center;
+    width: 100%;   
+    padding: 15px;
+    background-color:rgb(37, 35, 35);
+    color: blanchedalmond;
+}
+.footerfondo1{
+    background-color:rgb(58, 58, 58);
+}
+.footerbox1{
+    
+    width: 100%;
+    
+}
+.footerfondo{
+    background-color:rgb(37, 35, 35) ;   
+    
+}
+
+.imgredesf{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+.imgredesf:hover{
+    width: 55px;
+    height: 55px;
+    
+   
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar{
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
